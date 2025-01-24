@@ -31,10 +31,11 @@
         {
 
             if ($project) {
-                echo "✅ finalizado!";
-            } else {
-                echo "⛔ não finalizado!";
+                return "✅ finalizado!";
             }
+
+            return "⛔ não finalizado!";
+
         }
 
         ?>
@@ -49,9 +50,7 @@
             </div>
 
             <div> Projeto:
-                <?php
-                echo isProjetoFinalizado($project['finish']);
-                ?>
+                <?= isProjetoFinalizado($project['finish']); ?>
             </div>
         <?php endforeach; ?>
     </ul>
