@@ -1,7 +1,7 @@
 <?php
 
 $itens = [
-    ['href' => '#projetos', 'texto' => 'Projetos'],
+    ['href' => '#projects', 'texto' => 'Projetos'],
     ['href' => 'https://www.linkedin.com/in/vitor-marinheiro-590a461ba/', 'texto' => 'LinkedIn'],
     ['href' => 'https://github.com/vitormarinheiro1', 'texto' => 'GitHub'],
 ];

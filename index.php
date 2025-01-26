@@ -16,10 +16,14 @@
         <!-- Hero -->
         <?php include('./components/hero.php'); ?>
         <!-- Projetos -->
-        <?php include('./components/projects.php'); ?>
+        <section class="space-y-3 py-6">
+            <h2 class="text-2xl font-bold" id="projects">Meus Projetos</h2>
+            <?php include('./components/projects.php'); ?>
+        </section>
     </main>
 
     <!-- Rodape -->
     <?php include('./components/footer.php'); ?>
 </body>
+
 </html>

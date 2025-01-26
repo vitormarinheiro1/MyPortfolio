@@ -22,6 +22,6 @@ $itens = [
     </div>
     <!-- Imagem -->
     <div class="w-1/3 flex items-center justify-center">
-        <img class="h-60 -mt-6 hover:animate-ping" src="./img/avatar.svg" alt="Avatar ">
+        <img class="h-60 -mt-6 hover:animate-pulse" src="./img/avatar.svg" alt="Avatar ">
     </div>
 </section>
